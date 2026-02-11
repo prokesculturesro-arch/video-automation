@@ -1,0 +1,43 @@
+{
+  "layouts": {
+    "bar_chart": {
+      "description": "Horizontal bar chart with labels",
+      "max_bars": 5,
+      "bar_area_top_ratio": 0.18,
+      "bar_area_height_ratio": 0.47,
+      "max_bar_width_ratio": 0.65,
+      "colors": "chart_palette",
+      "show_gridlines": true
+    },
+    "pie_chart": {
+      "description": "Donut chart with legend",
+      "center_y_ratio": 0.34,
+      "outer_radius": 220,
+      "inner_radius": 120,
+      "max_slices": 6,
+      "show_legend": true
+    },
+    "statistics": {
+      "description": "Big number statistics with labels",
+      "max_stats": 4,
+      "start_y_ratio": 0.21,
+      "stat_gap": 300,
+      "number_size": 96,
+      "label_size": 30
+    },
+    "comparison": {
+      "description": "Side-by-side comparison with pros/cons",
+      "max_items_per_side": 5,
+      "divider_color": [60, 60, 80],
+      "positive_color": [120, 255, 120],
+      "negative_color": [255, 100, 100]
+    },
+    "process": {
+      "description": "Step-by-step process flow with numbered circles",
+      "max_steps": 5,
+      "step_gap": 220,
+      "circle_radius": 35,
+      "connector_width": 2
+    }
+  }
+}

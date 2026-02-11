@@ -1,0 +1,143 @@
+# ============================================
+# ULTIMATE AI VIDEO CREATOR — Configuration
+# ============================================
+
+project:
+  name: "ULTIMATE AI Video Creator"
+  output_dir: "output"
+  cache_dir: "cache"
+
+# --- Video Settings ---
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+  duration:
+    min: 15
+    max: 60
+    default: 30
+  format: "mp4"
+  codec: "libx264"
+  audio_codec: "aac"
+  bitrate: "4M"
+
+# --- AI Director Brain ---
+brain:
+  mode: "template"          # "template" (free) or "claude" (API key needed)
+  claude_api_key: ""        # Anthropic API key (only for claude mode)
+  claude_model: "claude-sonnet-4-20250514"
+  max_scenes: 6
+
+# --- Visual Generators ---
+generators:
+  ai_image:
+    enabled: false
+    engine: "pollinations"  # "local" (SDXL Turbo, needs GPU) or "pollinations" (free API)
+    local:
+      model: "stabilityai/sdxl-turbo"
+      width: 512
+      height: 512
+      steps: 1
+      guidance_scale: 0.0
+  ai_video:
+    enabled: false
+    wan2gp_path: ""         # Path to Wan2GP installation
+    model: "1.3B"
+    resolution: [480, 848]
+    cpu_offload: true
+    timeout: 600            # 10 minutes per clip
+
+# --- Voiceover (Edge TTS — FREE) ---
+voiceover:
+  engine: "edge-tts"
+  voices:
+    sk_male: "sk-SK-LukasNeural"
+    sk_female: "sk-SK-ViktoriaNeural"
+    en_male: "en-US-GuyNeural"
+    en_female: "en-US-JennyNeural"
+    en_dramatic: "en-US-DavisNeural"
+    cz_male: "cs-CZ-AntoninNeural"
+    cz_female: "cs-CZ-VlastaNeural"
+  default_voice: "en_male"
+  rate: "+0%"
+  pitch: "+0Hz"
+  auto_discover: true       # Dynamic voice discovery for any language
+
+# --- Audio System ---
+audio:
+  voice_clone:
+    enabled: false
+    engine: "openvoice"     # OpenVoice v2
+    reference_audio: ""     # Path to reference audio (10-30s WAV)
+    openvoice_path: ""      # Path to OpenVoice installation
+
+# --- Visuals ---
+visuals:
+  pexels:
+    api_key: ""
+    per_page: 15
+    orientation: "portrait"
+    min_duration: 5
+
+  fallback_color: "#000000"
+
+  text:
+    font: "assets/fonts/Montserrat-Bold.ttf"
+    font_size: 64
+    color: "#FFFFFF"
+    stroke_color: "#000000"
+    stroke_width: 3
+    position: "center"
+    max_width_ratio: 0.85
+
+# --- Subtitles / Captions ---
+subtitles:
+  enabled: true
+  style: "word_highlight"
+  font_size: 48
+  color: "#FFFFFF"
+  highlight_color: "#FFD700"
+  background: "rgba(0,0,0,0.6)"
+  position: "bottom"
+  words_per_line: 4
+
+# --- Background Music ---
+music:
+  enabled: true
+  volume: 0.15
+  fade_in: 1.0
+  fade_out: 2.0
+
+# --- Brand ---
+brand:
+  name: ""
+  logo: ""
+  logo_position: "top_right"
+  logo_size: 80
+  logo_opacity: 0.7
+  colors:
+    primary: "#FFFFFF"
+    secondary: "#000000"
+    accent: "#FFD700"
+
+  cta:
+    enabled: false
+    text: "Follow for more!"
+    duration: 3
+
+# --- Publishing ---
+publishing:
+  youtube:
+    enabled: false
+    credentials_file: ""
+    default_privacy: "private"
+    category_id: "22"
+
+  tiktok:
+    enabled: false
+    cookies_file: ""
+
+  instagram:
+    enabled: false
+    username: ""
+    password: ""

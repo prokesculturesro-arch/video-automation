@@ -1,0 +1,47 @@
+{
+  "styles": {
+    "chat": {
+      "description": "WhatsApp/iMessage style animated chat",
+      "conversations": [
+        {
+          "topic": "sleep",
+          "script": "Alex: Hey, have you been sleeping well lately?\nSam: Honestly, not really. I keep waking up at 3am\nAlex: Dude, I had the same problem. Then I tried something\nSam: What did you do?\nAlex: I stopped looking at my phone an hour before bed. The blue light was destroying my melatonin\nSam: Wait, that actually works?\nAlex: 100%. First week was hard but now I fall asleep in like 10 minutes\nSam: I'm trying this tonight. No more doomscrolling before bed"
+        },
+        {
+          "topic": "wellness",
+          "script": "Alex: I started this new morning routine and it's insane\nSam: Let me guess, you wake up at 5am now?\nAlex: Actually yes. But hear me out. 10 min meditation, cold shower, then journaling\nSam: Cold shower? In the morning? Are you crazy?\nAlex: It sounds crazy but it wakes you up better than any coffee\nSam: How long did it take to get used to it?\nAlex: About a week. Now I actually look forward to it\nSam: Okay I'm curious. Send me the routine"
+        },
+        {
+          "topic": "cbd",
+          "script": "Alex: Have you ever tried CBD oil?\nSam: No, isn't that basically weed?\nAlex: Not at all. CBD is non-psychoactive. It won't get you high\nSam: Then what does it do?\nAlex: It helps with anxiety, sleep, and inflammation. There's actual research behind it\nSam: My anxiety has been terrible lately actually\nAlex: That's exactly why I started. It takes the edge off without any side effects\nSam: Where do you even get legit CBD though?\nAlex: I'll send you the brand I use. It's lab tested and everything"
+        }
+      ]
+    },
+    "podcast": {
+      "description": "Two speakers podcast/interview style",
+      "conversations": [
+        {
+          "topic": "sleep",
+          "script": "Host: Welcome back to the show. Today we're talking about sleep science with Dr. Expert\nExpert: Thanks for having me. Sleep is probably the most underrated health tool we have\nHost: So what's the number one mistake people make with their sleep?\nExpert: Inconsistency. People sleep different hours every day and wonder why they're tired\nHost: What about the blue light thing? Is that real or overhyped?\nExpert: Very real. Blue light suppresses melatonin by up to 50 percent. Put the phone away before bed\nHost: If someone wanted to improve their sleep starting tonight, what should they do?\nExpert: Three things. Consistent bedtime, dark cool room, and no screens 30 minutes before sleep\nHost: Simple but powerful. Thanks for the insight"
+        },
+        {
+          "topic": "wellness",
+          "script": "Host: Let's dive into today's topic. What does wellness actually mean in 2025?\nExpert: It's moved beyond just diet and exercise. Now we look at mental health, sleep, community, purpose\nHost: That's a lot to manage. Where should someone start?\nExpert: Start with sleep and hydration. Those two things affect everything else\nHost: What about all these supplements everyone is selling?\nExpert: Most are unnecessary if you eat well and sleep well. But vitamin D and magnesium are genuinely helpful\nHost: Any daily habit you'd recommend to everyone?\nExpert: Ten minutes of morning sunlight. It sets your circadian rhythm and boosts mood naturally\nHost: Fascinating. Thank you for sharing this"
+        }
+      ]
+    },
+    "story": {
+      "description": "Dramatic narrative with characters and narrator",
+      "conversations": [
+        {
+          "topic": "sleep",
+          "script": "[Narrator]: Sarah hadn't slept properly in months. Until she discovered one simple change.\nSarah: I can't keep going like this. I'm exhausted every single day.\nDoctor: When do you usually go to bed?\nSarah: It varies. Sometimes 10pm, sometimes 2am.\nDoctor: That's your problem. Your body has no rhythm. Pick a time and stick to it.\n[Narrator]: Sarah was skeptical. But she tried it. Same bedtime every night for two weeks.\nSarah: I can't believe it. I actually feel rested for the first time in months.\nDoctor: Consistency is the most powerful sleep tool there is.\n[Narrator]: Sometimes the simplest solutions make the biggest difference."
+        },
+        {
+          "topic": "motivation",
+          "script": "[Narrator]: Everyone told him it was impossible. He decided to prove them wrong.\nMarco: I'm going to start my own business.\nFriend: In this economy? That's risky man.\nMarco: Working a job I hate for 40 years is riskier.\n[Narrator]: Marco started with nothing. Just an idea and determination.\nMarco: The first three months were brutal. Zero revenue. Zero sleep.\nFriend: Maybe it's time to get a real job?\nMarco: I didn't come this far to only come this far.\n[Narrator]: Six months later, Marco's business hit six figures. The lesson? Bet on yourself."
+        }
+      ]
+    }
+  }
+}

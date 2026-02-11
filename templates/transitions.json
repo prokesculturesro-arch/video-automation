@@ -1,0 +1,35 @@
+{
+  "transitions": {
+    "crossfade": {
+      "type": "crossfade",
+      "duration": 0.5,
+      "description": "Simple opacity crossfade between clips"
+    },
+    "fade_black": {
+      "type": "fade_black",
+      "duration": 0.3,
+      "description": "Fade to black then fade in next clip"
+    },
+    "slide_left": {
+      "type": "slide_left",
+      "duration": 0.4,
+      "description": "Next clip slides in from right"
+    },
+    "slide_up": {
+      "type": "slide_up",
+      "duration": 0.4,
+      "description": "Next clip slides in from bottom"
+    },
+    "zoom_in": {
+      "type": "zoom_in",
+      "duration": 0.5,
+      "description": "Zoom into current clip then reveal next"
+    },
+    "cut": {
+      "type": "cut",
+      "duration": 0.0,
+      "description": "Hard cut, no transition"
+    }
+  },
+  "default": "crossfade"
+}

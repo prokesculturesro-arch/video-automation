@@ -1,0 +1,61 @@
+{
+  "presets": {
+    "typewriter": {
+      "description": "Text appears character by character with cursor",
+      "bg_top": [15, 15, 35],
+      "bg_bot": [5, 5, 15],
+      "text_color": [255, 255, 255],
+      "cursor_color": [255, 215, 0],
+      "speed": 0.05
+    },
+    "fade_words": {
+      "description": "Words fade in one by one with glow",
+      "bg_top": [10, 10, 30],
+      "bg_bot": [5, 5, 15],
+      "text_color": [255, 255, 255],
+      "highlight_color": [255, 215, 0],
+      "fade_duration": 0.3
+    },
+    "slide_in": {
+      "description": "Words slide in from alternating edges",
+      "bg_top": [20, 10, 30],
+      "bg_bot": [5, 5, 15],
+      "slide_speed": 0.2,
+      "alternate_sides": true
+    },
+    "kinetic_typography": {
+      "description": "Dynamic text with varying sizes and positions",
+      "bg_top": [15, 15, 40],
+      "bg_bot": [5, 5, 10],
+      "min_size": 40,
+      "max_size": 80,
+      "highlight_color": [255, 215, 0]
+    },
+    "counter": {
+      "description": "Counting number animation with label",
+      "bg_top": [10, 20, 40],
+      "bg_bot": [5, 10, 20],
+      "number_color": [255, 215, 0],
+      "label_color": [200, 200, 220],
+      "number_size": 120,
+      "count_speed": 0.02
+    },
+    "lower_third": {
+      "description": "Name/title lower-third bar overlay",
+      "bar_position": 0.75,
+      "bar_height": 120,
+      "accent_color": [255, 215, 0],
+      "bg_color": [20, 20, 30],
+      "text_size": 42,
+      "subtitle_size": 28
+    },
+    "title_card": {
+      "description": "Full-screen title with decorative lines",
+      "bg_top": [25, 15, 40],
+      "bg_bot": [5, 5, 10],
+      "accent_color": [255, 215, 0],
+      "text_color": [255, 255, 255],
+      "text_size": 56
+    }
+  }
+}

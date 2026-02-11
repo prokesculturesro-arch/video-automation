@@ -1,0 +1,110 @@
+{
+  "categories": {
+    "education": {
+      "structures": [
+        {
+          "name": "3_facts",
+          "hook_style": "list",
+          "segments": 3,
+          "segment_template": "Fact {n}: {point}. {explanation}",
+          "cta": "Follow for more {topic} facts!",
+          "visual_style": "clean"
+        },
+        {
+          "name": "myth_busting",
+          "hook_style": "controversial",
+          "segments": 3,
+          "segment_template": "Myth: {myth}. Reality: {reality}",
+          "cta": "Share this with someone who needs to hear it!",
+          "visual_style": "bold"
+        },
+        {
+          "name": "how_it_works",
+          "hook_style": "curiosity",
+          "segments": 4,
+          "segment_template": "Step {n}: {step}. {detail}",
+          "cta": "Save this for later!",
+          "visual_style": "minimal"
+        }
+      ],
+      "visual_queries": ["science", "technology", "books", "nature", "abstract"]
+    },
+    "lifestyle": {
+      "structures": [
+        {
+          "name": "morning_routine",
+          "hook_style": "direct",
+          "segments": 3,
+          "segment_template": "{time}: {activity}. This helps with {benefit}",
+          "cta": "Try this tomorrow morning!",
+          "visual_style": "clean"
+        },
+        {
+          "name": "tips",
+          "hook_style": "list",
+          "segments": 3,
+          "segment_template": "Tip {n}: {tip}. {why_it_works}",
+          "cta": "Which tip will you try first?",
+          "visual_style": "minimal"
+        }
+      ],
+      "visual_queries": ["lifestyle", "wellness", "healthy", "morning", "nature"]
+    },
+    "product": {
+      "structures": [
+        {
+          "name": "review",
+          "hook_style": "story",
+          "segments": 3,
+          "segment_template": "{aspect}: {review}. {verdict}",
+          "cta": "Link in bio!",
+          "visual_style": "bold"
+        },
+        {
+          "name": "comparison",
+          "hook_style": "controversial",
+          "segments": 3,
+          "segment_template": "{product_a} vs {product_b}: {comparison}",
+          "cta": "Comment your pick!",
+          "visual_style": "neon"
+        }
+      ],
+      "visual_queries": ["product", "shopping", "review", "unboxing"]
+    },
+    "humor": {
+      "structures": [
+        {
+          "name": "relatable",
+          "hook_style": "pov",
+          "segments": 2,
+          "segment_template": "{setup}... {punchline}",
+          "cta": "Tag someone who does this!",
+          "visual_style": "bold"
+        }
+      ],
+      "visual_queries": ["funny", "reaction", "surprised", "comedy"]
+    },
+    "bait": {
+      "structures": [
+        {
+          "name": "shocking_reveal",
+          "hook_style": "curiosity",
+          "segments": 3,
+          "segment_template": "{buildup}. {reveal}",
+          "cta": "Follow for more mind-blowing content!",
+          "visual_style": "neon"
+        },
+        {
+          "name": "countdown",
+          "hook_style": "list",
+          "segments": 3,
+          "segment_template": "Number {n}: {item}. {shock_factor}",
+          "cta": "Wait till you see number 1!",
+          "visual_style": "bold"
+        }
+      ],
+      "visual_queries": ["amazing", "incredible", "wow", "shocking"]
+    }
+  },
+  "default_category": "education"
+}

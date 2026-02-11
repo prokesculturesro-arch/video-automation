@@ -1,0 +1,32 @@
+# ============================================
+# ULTIMATE AI VIDEO CREATOR — Dependencies
+# ============================================
+
+# Core (required)
+edge-tts>=7.0.0
+moviepy>=2.0.0
+Pillow>=10.0.0
+requests>=2.31.0
+pyyaml>=6.0
+ffmpeg-python>=0.2.0
+numpy>=1.24.0
+imageio-ffmpeg>=0.5.1
+
+# Optional: Claude API for AI Director brain
+# pip install anthropic
+# anthropic>=0.30.0
+
+# Optional: Local AI image generation (SDXL Turbo, needs CUDA GPU)
+# pip install torch diffusers transformers accelerate
+# torch>=2.1.0
+# diffusers>=0.25.0
+# transformers>=4.36.0
+# accelerate>=0.25.0
+
+# Optional: Voice cloning (OpenVoice v2 + MeloTTS)
+# Install separately — see https://github.com/myshell-ai/OpenVoice
+# May require Python 3.9-3.10
+
+# Optional: AI video generation (Wan2.1 / Wan2GP)
+# Install separately — see https://github.com/deepbeepmeep/Wan2GP
+# Requires CUDA GPU with 8GB+ VRAM

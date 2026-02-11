@@ -1,0 +1,40 @@
+{
+  "patterns": {
+    "education": {
+      "visual_sequence": ["stock_footage", "text_animation", "infographic", "stock_footage", "motion_graphic", "stock_footage"],
+      "transitions": ["crossfade", "cut", "fade_black", "crossfade", "slide_left", "crossfade"],
+      "pacing": "moderate",
+      "music_mood": "inspiring"
+    },
+    "lifestyle": {
+      "visual_sequence": ["stock_footage", "stock_footage", "text_animation", "stock_footage", "motion_graphic", "stock_footage"],
+      "transitions": ["crossfade", "crossfade", "fade_black", "crossfade", "crossfade", "crossfade"],
+      "pacing": "relaxed",
+      "music_mood": "chill"
+    },
+    "product": {
+      "visual_sequence": ["stock_footage", "infographic", "stock_footage", "text_animation", "motion_graphic", "stock_footage"],
+      "transitions": ["zoom_in", "crossfade", "slide_left", "crossfade", "cut", "crossfade"],
+      "pacing": "fast",
+      "music_mood": "upbeat"
+    },
+    "humor": {
+      "visual_sequence": ["stock_footage", "text_animation", "stock_footage", "motion_graphic", "stock_footage", "text_animation"],
+      "transitions": ["cut", "cut", "crossfade", "cut", "cut", "crossfade"],
+      "pacing": "fast",
+      "music_mood": "funny"
+    },
+    "bait": {
+      "visual_sequence": ["text_animation", "stock_footage", "infographic", "stock_footage", "motion_graphic", "text_animation"],
+      "transitions": ["fade_black", "zoom_in", "crossfade", "cut", "fade_black", "crossfade"],
+      "pacing": "dramatic",
+      "music_mood": "dramatic"
+    },
+    "default": {
+      "visual_sequence": ["stock_footage", "stock_footage", "text_animation", "stock_footage", "stock_footage", "stock_footage"],
+      "transitions": ["crossfade", "crossfade", "crossfade", "crossfade", "crossfade", "crossfade"],
+      "pacing": "moderate",
+      "music_mood": "neutral"
+    }
+  }
+}

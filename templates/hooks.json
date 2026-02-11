@@ -1,0 +1,71 @@
+{
+  "hooks": {
+    "curiosity": [
+      "Nobody talks about this but...",
+      "I tested {topic} for 30 days. Here's what happened.",
+      "{topic} companies don't want you to know this",
+      "The truth about {topic}",
+      "Wait for it...",
+      "This one thing changed everything about {topic}",
+      "I can't believe this actually works",
+      "What they don't tell you about {topic}",
+      "You need to hear this about {topic}",
+      "The secret behind {topic} that experts hide"
+    ],
+    "direct": [
+      "Stop scrolling if you care about {topic}",
+      "3 things about {topic} you NEED to know",
+      "This changed everything for me",
+      "You've been doing {topic} wrong",
+      "Here's why {topic} matters more than you think",
+      "If you're into {topic}, watch this",
+      "The only guide to {topic} you'll ever need",
+      "{topic} 101: What beginners get wrong",
+      "Master {topic} in under a minute",
+      "Everything you need to know about {topic}"
+    ],
+    "pov": [
+      "POV: You just discovered {topic}",
+      "POV: You finally understand {topic}",
+      "When you find out about {topic}",
+      "POV: Someone explains {topic} in 30 seconds",
+      "That moment when {topic} clicks",
+      "POV: Your friend tells you about {topic}"
+    ],
+    "controversial": [
+      "Unpopular opinion about {topic}",
+      "I'm going to get hate for this but...",
+      "Why {topic} is NOT what you think",
+      "Everyone is wrong about {topic}",
+      "Hot take: {topic} is overrated",
+      "The uncomfortable truth about {topic}",
+      "Why most people fail at {topic}",
+      "{topic} is a scam and here's why... just kidding"
+    ],
+    "list": [
+      "3 reasons why {topic} matters",
+      "5 mistakes everyone makes with {topic}",
+      "Top 3 {topic} tips nobody tells you",
+      "The only 3 things you need to know about {topic}",
+      "3 {topic} hacks that actually work",
+      "5 signs you need to learn about {topic}",
+      "3 ways {topic} will change your life",
+      "Top 5 {topic} myths debunked"
+    ],
+    "story": [
+      "I tried {topic} so you don't have to",
+      "How {topic} completely changed my routine",
+      "My honest experience with {topic}",
+      "I was skeptical about {topic} until...",
+      "The day I discovered {topic}",
+      "What happened when I tried {topic} for a week"
+    ],
+    "challenge": [
+      "Can you guess what {topic} does?",
+      "Bet you didn't know this about {topic}",
+      "Try this {topic} trick right now",
+      "Watch this and tell me {topic} isn't amazing",
+      "I dare you to try this {topic} hack"
+    ]
+  }
+}
